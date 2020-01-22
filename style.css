@@ -91,6 +91,7 @@ body {
      text-align: left;
      width: 500px;
      padding: 43px 0px;
+     border-style: none;
 }
 .money{
      font-size:12px;
@@ -283,7 +284,7 @@ button.color-border{
 }
 footer.border{
      background: #ffffff;
-     border: 1px solid #e1e1e1;
+     border-top: 1px solid #e1e1e1;
      text-align: center;
      padding: 31px 0px 28px 0px;
      margin: 102px 0px 0px;
