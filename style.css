@@ -91,6 +91,7 @@ body {
      text-align: left;
      width: 500px;
      padding: 43px 0px;
+     border-style: none;
 }
 .money{
      font-size:12px;
