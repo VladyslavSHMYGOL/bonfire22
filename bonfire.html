@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bonfire</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">  
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet"> 
+    </head>      
+    <body>
+      <div class="wrapper">
+        <header>
+            <!--серая область-->
+            <div class="grey">
+                <p class="top">"Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <!--кнопка закрыть-->
+                <span class="close" title="close">close</span>
+            </div>
+            <!--контейнер для элементов-->
+            <div class="white">
+                <!--курс валют-->
+                <div class="currency">
+                    <form>
+                        <select>
+                              <option class="money" value="usd">usd</option>
+                              <option class="money" value="eur">eur</option>
+                              <option class="money" value="uah">uah</option>
+                        </select>
+                    </form>
+                </div>
+                <!--логотип-->
+                <a class="logo"href="">Bonfire</a>
+                <!--корзина-->
+                <div class="basket">
+                    <a class="cart" href="">CART</a>
+                </div>              
+            </div>          
+        </header>
+        <nav class="white_nav">
+             <!--бургер меню-->
+             <div class="menu_burger wrapper">
+            	 <span class="menu_btn">
+            		  <div class="line"></div>
+            	  	<div class="line"></div>
+            		  <div class="line"></div>
+            	 </span>
+             </div>            
+             <!--навигация-->
+             <ul class="menu_li">
+               <li class="blok_li">Loren</li>
+               <li class="blok_li">Loren</li>
+               <li class="blok_li">Loren</li>
+               <li class="blok_li">Loren</li>
+               <li class="blok_li">Loren</li>
+               <li class="blok_li">Loren</li>
+             </ul>
+             <!--поиск-->
+             <div class="search">
+              	 <form>
+                     <input type="text">
+                 </form>
+             </div>
+        </nav>
+        <main class="box">
+            <!--контейнер с картинками-->
+            <div class="box_img">
+                <div class="img_big">
+                    <img class="size"src=".jpg">
+                </div>
+                <div class="img_small">
+                    <img class="size" src=".jpg">
+                    <img class="size" src=".jpg">
+                    <img class="size" src=".jpg">
+                    <img class="size" src=".jpg">
+                </div>
+            </div>
+            <!--2ой контейнер-->
+            <div class="box_info">
+                <!--Вернуться на предведущюю страницу-->
+                  <div class="indent45">
+                    <a class="back" href="">Back to <span class="blue"> women </span></a>
+                  </div>
+                <!--Характеристики товара-->
+                <div>
+                    <!--название товара-->
+                    <div class="indent22">
+                      <a class="name" href=""><h4>Finibus Bonorum et Malorum</h4></a>
+                    </div>
+                    <!--оценка и коментарии товара-->
+                    <div class="indent25">
+                        <!--оценка-->
+                        <a href="">три звезды</a>
+                        <!--количество коментариев и переход к ним-->
+                        <a class="review" href="">3 review(s)</a>
+                        <!--добавить коментарий-->
+                        <a class="add_review" href="">add a review</a>
+                    </div>
+                    <!--цена-->
+                    <div class="indent32">
+                       <p class="price">$499</p>
+                    </div>
+                    <!--наличие и код товара-->
+                    <div class="clearfix indent32">
+                       <dl class="line-height13">
+                         <dt class="availability">ullamco laboris:</dt>
+                         <dd class="blue">dfgfbdf fgfg</dd>
+                         <dt class="availability">fugiat nulla pariatur:</dt>
+                         <dd class="blue">dfgdfg fdgfdg</dd>
+                         <dt class="availability">mollit anim:</dt>   
+                         <dd class="blue">dfgdfg fgdf</dd>
+                       <dl>
+                    </div>         
+                    <!--Описание товара-->
+                    <div class="indent32">
+                       <p class="text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non</p>
+                    </div>
+                      <!--характеристики товара-->
+                    <ul class="text indent38">
+                       <li>Quis autem</li>
+                       <li>quaerat voluptatem</li>
+                       <li>commodi consequatur</li> 
+                       <li>illum qui dolorem</li>                
+                    </ul>               
+                </div>
+                <!--контейнер для выбор товара(размер,количество)-->
+                <div class="indent38">
+                   <!--выбор товара(цвет,размер,количество)-->
+                   <form>
+                       <label class="topp">Color</label>
+                       <select>
+                          <option disabled="">Select Color</option> 
+                          <option value="red">red</option>
+                          <option value="black">black</option>
+                          <option value="blue">blue</option>
+                          <option value="green">green</option>
+                       </select>               
+                       <label class="topp">Size</label>
+                       <select>
+                          <option disabled="">Select size</option>
+                          <option value="m">m</option>
+                          <option value="l">l</option>
+                          <option value="xl">xl</option>
+                          <option value="xxl">xxl</option>
+                       </select>                
+                       <label class="topp">QTR</label>
+                       <select>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                       </select>         
+                       <!--Очистить выбранное-->                  
+                       <input class="clear" type="reset" value="Очистить">
+                       <!--контейнер для корзины и пожеланий-->
+                       <div>
+                          <!--добавить в корзину-->
+                          <button class="bg-CART">ADD TO CART</button>
+                          <!--добавить в пожелание-->
+                          <button class="color-border">ADD TO WISHLIST</button>
+                       </div>
+                   </form>
+                </div>
+                <!--контейнер для Share-->
+                <div>
+                   <ul class="">
+                      <li class="">Share this</li>
+                      <li class=""><a href=""><img scr=".jpg">icon facebook</a></li>
+                      <li class=""><a href=""><img scr=".jpg">icon tweeter</a></li>
+                      <li class=""><a href=""><img scr=".jpg">icon pin it</a></li>
+                   <ul>
+                </div>
+            </div>       
+        </main>
+        <footer class="border">        	  
+                 <p class="footer">But I must explain to you how all this mistaken</p>             
+        </footer>
+      </div>
+    </body>
+</html>
