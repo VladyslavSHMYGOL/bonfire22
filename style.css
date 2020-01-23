@@ -237,6 +237,12 @@ p.price{
      color: #555555;
      font-size: 14px;
 }
+.dline{
+     line-height: 1.5;
+}
+.tline{
+     line-height: 1.1;
+}
 dt.availability{
      float: left;
      color: #111111;
