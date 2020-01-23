@@ -218,6 +218,16 @@ a.name{
      font-weight: 700;
      line-height: ;
 }
+div.stars {
+     border-right: 1px solid #bababa;
+     display: inline;
+}
+span.orange-star {
+     color: #e2d3ab;
+}
+span.grey-star {
+     color: #e0e0df;
+}
 a.review{
      color: #555555;
      font-size: 14px;
