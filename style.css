@@ -91,7 +91,11 @@ body {
      text-align: left;
      width: 500px;
      padding: 43px 0px;
+}
+.m{
      border-style: none;
+     font-size: 12px;
+     text-transform: uppercase;
 }
 .money{
      font-size:12px;
@@ -99,6 +103,7 @@ body {
 .logo{   
      display: inline-block;    
      text-align: center;
+     text-transform: uppercase;
      color: #000000;
      width: 134px;
      padding: 37px 0px;
@@ -110,10 +115,10 @@ body {
      font-size: 12px;
      width: 500px;
      height: 50px
-     padding: 16px 40px;
 }
 .cart{
      border: 2px solid #ded3aa;
+     padding: 17px 40px;
 }
 /*навигация*/
 .white_nav{
@@ -124,10 +129,9 @@ body {
      margin-bottom: 50px;
 }
 .menu_burger{
-     display: inline-block;
-     text-align: left;
-     width: 305px;
-     margin: 27px 0px;
+     float: left;
+     padding-top: 30px;
+     padding-bottom: 30px;
 }
 /*меню бургер*/
 div.line{
@@ -140,23 +144,18 @@ div.line{
 }
 .menu_li{
      color: #000000;
-     display: inline-block;
-     text-align: center;
      font-size: 12px;
      text-transform: uppercase;
-     font-weight: 400;
-     width: 585px;
-     margin: 27px 0px;
+     text-align: center;
 }
 .blok_li{
      display: inline-block;
-     padding:30px 0px;
+     padding:30px 22px 0;
 }
 .search{
-     display: inline-block;
-     text-align: right;
-     width: 250px;
-     margin: 27px 0px;
+     float: right;
+     padding: 30px 0;
+     border: none;
 }
 /*main*/
 .box{
@@ -238,6 +237,12 @@ p.price{
      color: #555555;
      font-size: 14px;
 }
+.dline{
+     line-height: 1.5;
+}
+.tline{
+     line-height: 1.1;
+}
 dt.availability{
      float: left;
      color: #111111;
@@ -250,12 +255,10 @@ dd.blue{
      font-weight: 700;
 }
 /*очищаем после Float */
-.clearfix:after{
-     content:".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     height: 0;
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 /*выбор товара(цвет,размер,количество)*/
 label.topp{
@@ -265,22 +268,50 @@ label.topp{
      font-weight: 700;
 }
 input.clear{
-     color: #111111;
+     margin-top: 41px;
+     color:#000000;
      font-size: 12px;
+     text-transform: uppercase;
+     border: none;
+     display: block;
+     border-bottom:  1px solid #bababa;
+     background-color: #ffffff;
 }
-button.bg-CART{
+button.blackbox{
      background: #111111;
      color: #ffffff;
      border: 1px solid #000000;
      font-size: 12px;
      font-weight: 700;
+     padding: 23px 65px;
+     margin: 59px 20px 70px 0;
+     width: 215px;
+     height: 55px;
 }
-button.color-border{
+button.whitebox{
      background: #ffffff;
-     font-size: 12px;
      color: #111111;
      border: 1px solid #e1e1e1;
+     font-size: 12px;
      font-weight: 700;
+     padding: 20px 50px;
+     margin: 59px 0px 70px 0;
+     width: 225px;
+     height: 55px;
+}
+.social{
+     text-transform: uppercase;
+     text-align: left;
+     border-top:1px solid #e1e1e1;
+     border-bottom:1px solid #e1e1e1;
+     padding: 23px 0;
+}
+.icon{
+     display: inline;
+     margin: 22px 4px 0px;
+}
+.w{
+     margin: 0px 64px 0px 0px;
 }
 footer.border{
      background: #ffffff;
