@@ -36,15 +36,21 @@
                 </div>              
             </div>          
         </header>
-        <nav class="white_nav">
+        <nav class="white_nav clearfix">
              <!--бургер меню-->
-             <div class="menu_burger wrapper">
+             <div class="menu_burger">
             	 <span class="menu_btn">
             		  <div class="line"></div>
             	  	<div class="line"></div>
             		  <div class="line"></div>
             	 </span>
-             </div>            
+             </div>    
+              <!--поиск-->
+             <div class="search">
+                 <form>
+                     <input type="text">
+                 </form>
+             </div>        
              <!--навигация-->
              <ul class="menu_li">
                <li class="blok_li">Loren</li>
@@ -54,12 +60,6 @@
                <li class="blok_li">Loren</li>
                <li class="blok_li">Loren</li>
              </ul>
-             <!--поиск-->
-             <div class="search clearfix">
-              	 <form>
-                     <input type="text">
-                 </form>
-             </div>
         </nav>
         <main class="box">
             <!--контейнер с картинками-->
@@ -151,25 +151,27 @@
                           <option value="5">5</option>
                           <option value="6">6</option>
                        </select>         
-                       <!--Очистить выбранное-->                  
-                       <input class="clear" type="reset" value="Очистить">
+                       <!--Очистить выбранное-->
+                       <div>              
+                          <input class="clear" type="reset" value="Очистить">
+                       </div>   
                        <!--контейнер для корзины и пожеланий-->
                        <div>
                           <!--добавить в корзину-->
-                          <button class="bg-CART">ADD TO CART</button>
+                          <button class="blackbox">ADD TO CART</button>
                           <!--добавить в пожелание-->
-                          <button class="color-border">ADD TO WISHLIST</button>
+                          <button class="whitebox">ADD TO WISHLIST</button>
                        </div>
                    </form>
                 </div>
                 <!--контейнер для Share-->
                 <div>
-                   <ul class="">
-                      <li class="">Share this</li>
-                      <li class=""><a href=""><img scr=".jpg">icon facebook</a></li>
-                      <li class=""><a href=""><img scr=".jpg">icon tweeter</a></li>
-                      <li class=""><a href=""><img scr=".jpg">icon pin it</a></li>
-                   <ul>
+                   <ul class="social">
+                      <li class="icon w">Share this</li>
+                      <li class="icon"><a href=""><img scr=".jpg">icon facebook</a></li>
+                      <li class="icon"><a href=""><img scr=".jpg">icon tweeter</a></li>
+                      <li class="icon"><a href=""><img scr=".jpg">icon pin it</a></li>
+                   </ul>
                 </div>
             </div>       
         </main>
