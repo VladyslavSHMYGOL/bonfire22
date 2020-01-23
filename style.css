@@ -91,7 +91,11 @@ body {
      text-align: left;
      width: 500px;
      padding: 43px 0px;
+}
+.m{
      border-style: none;
+     font-size: 12px;
+     text-transform: uppercase;
 }
 .money{
      font-size:12px;
@@ -99,6 +103,7 @@ body {
 .logo{   
      display: inline-block;    
      text-align: center;
+     text-transform: uppercase;
      color: #000000;
      width: 134px;
      padding: 37px 0px;
@@ -110,10 +115,10 @@ body {
      font-size: 12px;
      width: 500px;
      height: 50px
-     padding: 16px 40px;
 }
 .cart{
      border: 2px solid #ded3aa;
+     padding: 17px 40px;
 }
 /*навигация*/
 .white_nav{
@@ -145,7 +150,7 @@ div.line{
 }
 .blok_li{
      display: inline-block;
-     padding:30px 0px;
+     padding:30px 22px 0;
 }
 .search{
      float: right;
